@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-18",
+  "project": "NOX",
+  "deliverable": "isolated web research and independent QA candidate, not full desktop NOX/NEX",
+  "available_source": "NOX 0.20.1 QA Repair Kit plus local NOX-QA-source.zip",
+  "missing_source": "NOX_Integrated_Nightly_RC1.zip and NOX 0.15 GUI source tree not present in this runtime",
+  "tests": {
+    "web_research_unit_tests": 57,
+    "nightly_cross_component_tests": 25,
+    "offline_total_passed": 82,
+    "windows_real_browser": "NOT_RUN",
+    "desktop_GUI": "NOT_RUN",
+    "chatgpt_direct_handoff": "NOT_RUN"
+  },
+  "changes": [
+    "explicit module search query uses only observed module name for unique search field",
+    "unqualified module result disambiguation",
+    "three bounded read-only post-click metadata observations, no action retry",
+    "independent exact documentation URL/title/headings/action evidence gate",
+    "safe diagnostic codes in QA report",
+    "bounded subprocess output capture and timeout termination",
+    "source-tree SHA256 and package manifest integrity gate",
+    "path-free handoff_summary.json and handoff_summary.txt generated locally; no external send",
+    "owned Windows Playwright MCP process tree cleanup on exit"
+  ],
+  "github_release_audit": {
+    "repository": "yeerasiliyeerasili06-lgtm/nox-qa-releases",
+    "tag": "qa-0.9.2-r1",
+    "asset": "NOX-QA-source.zip",
+    "observed_sha256": "97dd0aab141639bf1559b8523e70873d8a2ec282fc7d7d1ed8c5ca399df9cb4d",
+    "same_as_0_9_1_release": true,
+    "local_0_20_1_source_zip_sha256": "8012276d07388a2ac155e3432f318a7c89c65f08cb6ffcf4d4bacf83f2a88d90",
+    "conclusion": "published 0.9.2 asset was the old source; previous SHA256_MATCH does not prove new source was tested"
+  },
+  "safety": {
+    "modified_user_windows": false,
+    "modified_github": false,
+    "sent_external_message": false,
+    "modified_stable_installation": false
+  }
+}

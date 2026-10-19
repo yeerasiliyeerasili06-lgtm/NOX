@@ -1,0 +1,24 @@
+{
+  "files": {
+    "NIGHTLY_RESULT.json": "554a6192858ba9a49db30a50a4cc74c9fc09dba5c295a4c8d957792f5b6b8bc4",
+    "README_先看.txt": "44aae6e1d7fab05711a34aa1535af9cb91c74f1f7181d55d12d96fca729ebb9e",
+    "app/src/agent.py": "1dd747ce268e1f0e872700a095ba34a361e39cd72a591b90931adfcbc89effa2",
+    "app/src/experience.py": "a36319cc6125db84c158c618187d77d242f61c08a512a9c48fa17138033a89da",
+    "app/src/outcome.py": "20c782cf2e607abc06f35c3d53d1ea016a2e29d488842ff801af500acc527def",
+    "app/src/research.py": "ebc331feb34166c530cdc3ad4fa151c8b10504e3fe2b066040610c51b456c9fa",
+    "app/tests/test_core_previous.py": "54b3a8394205e8a303cf73e598a6b4e2656a245b9ebfde09df79e17410811989",
+    "app/tests/test_large_page_evidence.py": "87b7c84df5c9fbc8bf621d26c34ef4ce02b5a7d330825438b12045004f112772",
+    "app/tests/test_module_disambiguation.py": "bab996ea297d14c340d5e779f8df9b7f47cd92479c1e315b6bafd5c6df98aaf8",
+    "app/tests/test_outcome_experience.py": "fb7198ab8a27563d3a6f8c7004a0aa7056ef589d3b3e39050cd7059d78935086",
+    "app/tests/test_research_learning.py": "f6b810037a21d97421d9337106ba1bcfffba9b34b90e54bc4bc3746660201e7f",
+    "app/tests/test_sqlite_lifetime.py": "788caeb05abf87c09f1982073aad928db2a6f322f6b89325f2075700e1832d5c",
+    "offline_check.cmd": "ea9501ba2d827e462fdddacc85281d543405df8fa1721d83a2111d52402d7e49",
+    "qa_main.py": "c4837d1298b87adaa9364cd73a72197ec5af9d0c2ba13efd77ced7f39fe90049",
+    "qa_worker.py": "984540db02a4b445dcf15f3d84152e24131d17146ffe6edd70ef5357f7c3403f",
+    "run.cmd": "bf4a2a434411816bfc21147675fd4ca73579c3ca99fb1251752d44a6b0feaceb",
+    "tests/test_nightly_contracts.py": "898d2976c0947afd7e9ea1d8164791d1c50208f6c613d0f50892ca3915327b77",
+    "tests/test_package_integrity.py": "fa36a4ef97111cf0076792c5cee46849e5cbf73625b3570ef229047900c2189f",
+    "verify_package.py": "16d39da754da32a8a2f04f044f155c8fc489812b2728c3eb4514040ca51c4225"
+  },
+  "schema": 1
+}
